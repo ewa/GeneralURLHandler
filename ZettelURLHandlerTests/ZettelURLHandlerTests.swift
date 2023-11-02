@@ -34,7 +34,10 @@ final class ZettelURLHandlerTests: XCTestCase {
   }
 
   func test3() throws {
-    XCTAssertEqual(try? getConfigFilePath(), URL(filePath: "/Users/jwb/.config/zettel.yaml"))
+    let homeDirURL = FileManager.default.homeDirectoryForCurrentUser
+    let homeDir = homeDirURL.path()
+
+    XCTAssertEqual(try? getConfigFilePath(), URL(filePath: homeDir + ".config/zettel.yaml"))
   }
 
   func testPerformanceExample() throws {
