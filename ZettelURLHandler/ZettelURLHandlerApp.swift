@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import OSLog
+
+extension Logger {
+    static let logger = Logger(subsystem: "ZettelUrlHandler", category: "general")
+}
 
 class AppDelegate: NSObject, NSApplicationDelegate {
   func application(_: NSApplication, open urls: [URL]) {
+      Logger.logger.info("bob")
     guard let conf = try? loadConfig(path: getConfigFilePath()) else { return }
 
     guard let url = NSWorkspace.shared.urlForApplication(withBundleIdentifier: "org.alacritty")
