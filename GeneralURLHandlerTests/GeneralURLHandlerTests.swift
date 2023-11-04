@@ -1,14 +1,14 @@
 //
-//  ZettelURLHandlerTests.swift
-//  ZettelURLHandlerTests
+//  GeneralURLHandlerTests.swift
+//  GeneralURLHandlerTests
 //
 //  Created by Joachim Bargsten on 04/01/2023.
 //
 
 import XCTest
-@testable import ZettelURLHandler
+@testable import GeneralURLHandler
 
-final class ZettelURLHandlerTests: XCTestCase {
+final class GeneralURLHandlerTests: XCTestCase {
   override func setUpWithError() throws {
     // Put setup code here. This method is called before the invocation of each test method in the class.
   }

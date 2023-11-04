@@ -1,6 +1,6 @@
 //
-//  ZettelURLHandlerApp.swift
-//  ZettelURLHandler
+//  GeneralURLHandlerApp.swift
+//  GeneralURLHandler
 //
 //  Created by Joachim Bargsten on 04/01/2023.
 //

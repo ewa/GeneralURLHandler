@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF54FA782965A4B4008D321B /* ZettelURLHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */; };
+		CF54FA782965A4B4008D321B /* GeneralURLHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */; };
 		CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA792965A4B4008D321B /* ContentView.swift */; };
 		CF54FA7C2965A4B5008D321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54FA7B2965A4B5008D321B /* Assets.xcassets */; };
 		CF54FA7F2965A4B5008D321B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54FA7E2965A4B5008D321B /* Preview Assets.xcassets */; };
-		CF54FA8A2965A4B5008D321B /* ZettelURLHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */; };
-		CF54FA942965A4B5008D321B /* ZettelURLHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */; };
-		CF54FA962965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */; };
+		CF54FA8A2965A4B5008D321B /* GeneralURLHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA892965A4B5008D321B /* GeneralURLHandlerTests.swift */; };
+		CF54FA942965A4B5008D321B /* GeneralURLHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA932965A4B5008D321B /* GeneralURLHandlerUITests.swift */; };
+		CF54FA962965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA952965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift */; };
 		CF54FAA32965A4D3008D321B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA22965A4D3008D321B /* main.swift */; };
 		CF54FAA52965A598008D321B /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA42965A598008D321B /* util.swift */; };
 		CF54FAA92965BF5D008D321B /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = CF54FAA82965BF5D008D321B /* Yams */; };
@@ -25,29 +25,29 @@
 			containerPortal = CF54FA6C2965A4B4008D321B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF54FA732965A4B4008D321B;
-			remoteInfo = ZettelURLHandler;
+			remoteInfo = GeneralURLHandler;
 		};
 		CF54FA902965A4B5008D321B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF54FA6C2965A4B4008D321B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF54FA732965A4B4008D321B;
-			remoteInfo = ZettelURLHandler;
+			remoteInfo = GeneralURLHandler;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF54FA742965A4B4008D321B /* ZettelURLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZettelURLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerApp.swift; sourceTree = "<group>"; };
+		CF54FA742965A4B4008D321B /* GeneralURLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralURLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerApp.swift; sourceTree = "<group>"; };
 		CF54FA792965A4B4008D321B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF54FA7B2965A4B5008D321B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF54FA7E2965A4B5008D321B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CF54FA802965A4B5008D321B /* ZettelURLHandler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZettelURLHandler.entitlements; sourceTree = "<group>"; };
-		CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelURLHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerTests.swift; sourceTree = "<group>"; };
-		CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelURLHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerUITests.swift; sourceTree = "<group>"; };
-		CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettelURLHandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF54FA802965A4B5008D321B /* GeneralURLHandler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneralURLHandler.entitlements; sourceTree = "<group>"; };
+		CF54FA852965A4B5008D321B /* GeneralURLHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralURLHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA892965A4B5008D321B /* GeneralURLHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerTests.swift; sourceTree = "<group>"; };
+		CF54FA8F2965A4B5008D321B /* GeneralURLHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralURLHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54FA932965A4B5008D321B /* GeneralURLHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerUITests.swift; sourceTree = "<group>"; };
+		CF54FA952965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF54FAA22965A4D3008D321B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CF54FAA42965A598008D321B /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 		CF54FAA62965B3AF008D321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -82,9 +82,9 @@
 		CF54FA6B2965A4B4008D321B = {
 			isa = PBXGroup;
 			children = (
-				CF54FA762965A4B4008D321B /* ZettelURLHandler */,
-				CF54FA882965A4B5008D321B /* ZettelURLHandlerTests */,
-				CF54FA922965A4B5008D321B /* ZettelURLHandlerUITests */,
+				CF54FA762965A4B4008D321B /* GeneralURLHandler */,
+				CF54FA882965A4B5008D321B /* GeneralURLHandlerTests */,
+				CF54FA922965A4B5008D321B /* GeneralURLHandlerUITests */,
 				CF54FA752965A4B4008D321B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,26 +92,26 @@
 		CF54FA752965A4B4008D321B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA742965A4B4008D321B /* ZettelURLHandler.app */,
-				CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */,
-				CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */,
+				CF54FA742965A4B4008D321B /* GeneralURLHandler.app */,
+				CF54FA852965A4B5008D321B /* GeneralURLHandlerTests.xctest */,
+				CF54FA8F2965A4B5008D321B /* GeneralURLHandlerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF54FA762965A4B4008D321B /* ZettelURLHandler */ = {
+		CF54FA762965A4B4008D321B /* GeneralURLHandler */ = {
 			isa = PBXGroup;
 			children = (
 				CF54FAA62965B3AF008D321B /* Info.plist */,
-				CF54FA772965A4B4008D321B /* ZettelURLHandlerApp.swift */,
+				CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */,
 				CF54FA792965A4B4008D321B /* ContentView.swift */,
 				CF54FA7B2965A4B5008D321B /* Assets.xcassets */,
-				CF54FA802965A4B5008D321B /* ZettelURLHandler.entitlements */,
+				CF54FA802965A4B5008D321B /* GeneralURLHandler.entitlements */,
 				CF54FA7D2965A4B5008D321B /* Preview Content */,
 				CF54FAA22965A4D3008D321B /* main.swift */,
 				CF54FAA42965A598008D321B /* util.swift */,
 			);
-			path = ZettelURLHandler;
+			path = GeneralURLHandler;
 			sourceTree = "<group>";
 		};
 		CF54FA7D2965A4B5008D321B /* Preview Content */ = {
@@ -122,29 +122,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CF54FA882965A4B5008D321B /* ZettelURLHandlerTests */ = {
+		CF54FA882965A4B5008D321B /* GeneralURLHandlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA892965A4B5008D321B /* ZettelURLHandlerTests.swift */,
+				CF54FA892965A4B5008D321B /* GeneralURLHandlerTests.swift */,
 			);
-			path = ZettelURLHandlerTests;
+			path = GeneralURLHandlerTests;
 			sourceTree = "<group>";
 		};
-		CF54FA922965A4B5008D321B /* ZettelURLHandlerUITests */ = {
+		CF54FA922965A4B5008D321B /* GeneralURLHandlerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CF54FA932965A4B5008D321B /* ZettelURLHandlerUITests.swift */,
-				CF54FA952965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift */,
+				CF54FA932965A4B5008D321B /* GeneralURLHandlerUITests.swift */,
+				CF54FA952965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift */,
 			);
-			path = ZettelURLHandlerUITests;
+			path = GeneralURLHandlerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF54FA732965A4B4008D321B /* ZettelURLHandler */ = {
+		CF54FA732965A4B4008D321B /* GeneralURLHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandler" */;
+			buildConfigurationList = CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandler" */;
 			buildPhases = (
 				CF54FA702965A4B4008D321B /* Sources */,
 				CF54FA712965A4B4008D321B /* Frameworks */,
@@ -154,17 +154,17 @@
 			);
 			dependencies = (
 			);
-			name = ZettelURLHandler;
+			name = GeneralURLHandler;
 			packageProductDependencies = (
 				CF54FAA82965BF5D008D321B /* Yams */,
 			);
-			productName = ZettelURLHandler;
-			productReference = CF54FA742965A4B4008D321B /* ZettelURLHandler.app */;
+			productName = GeneralURLHandler;
+			productReference = CF54FA742965A4B4008D321B /* GeneralURLHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF54FA842965A4B5008D321B /* ZettelURLHandlerTests */ = {
+		CF54FA842965A4B5008D321B /* GeneralURLHandlerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerTests" */;
+			buildConfigurationList = CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandlerTests" */;
 			buildPhases = (
 				CF54FA812965A4B5008D321B /* Sources */,
 				CF54FA822965A4B5008D321B /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				CF54FA872965A4B5008D321B /* PBXTargetDependency */,
 			);
-			name = ZettelURLHandlerTests;
-			productName = ZettelURLHandlerTests;
-			productReference = CF54FA852965A4B5008D321B /* ZettelURLHandlerTests.xctest */;
+			name = GeneralURLHandlerTests;
+			productName = GeneralURLHandlerTests;
+			productReference = CF54FA852965A4B5008D321B /* GeneralURLHandlerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF54FA8E2965A4B5008D321B /* ZettelURLHandlerUITests */ = {
+		CF54FA8E2965A4B5008D321B /* GeneralURLHandlerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerUITests" */;
+			buildConfigurationList = CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandlerUITests" */;
 			buildPhases = (
 				CF54FA8B2965A4B5008D321B /* Sources */,
 				CF54FA8C2965A4B5008D321B /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				CF54FA912965A4B5008D321B /* PBXTargetDependency */,
 			);
-			name = ZettelURLHandlerUITests;
-			productName = ZettelURLHandlerUITests;
-			productReference = CF54FA8F2965A4B5008D321B /* ZettelURLHandlerUITests.xctest */;
+			name = GeneralURLHandlerUITests;
+			productName = GeneralURLHandlerUITests;
+			productReference = CF54FA8F2965A4B5008D321B /* GeneralURLHandlerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "ZettelURLHandler" */;
+			buildConfigurationList = CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "GeneralURLHandler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF54FA732965A4B4008D321B /* ZettelURLHandler */,
-				CF54FA842965A4B5008D321B /* ZettelURLHandlerTests */,
-				CF54FA8E2965A4B5008D321B /* ZettelURLHandlerUITests */,
+				CF54FA732965A4B4008D321B /* GeneralURLHandler */,
+				CF54FA842965A4B5008D321B /* GeneralURLHandlerTests */,
+				CF54FA8E2965A4B5008D321B /* GeneralURLHandlerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */,
-				CF54FA782965A4B4008D321B /* ZettelURLHandlerApp.swift in Sources */,
+				CF54FA782965A4B4008D321B /* GeneralURLHandlerApp.swift in Sources */,
 				CF54FAA32965A4D3008D321B /* main.swift in Sources */,
 				CF54FAA52965A598008D321B /* util.swift in Sources */,
 			);
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF54FA8A2965A4B5008D321B /* ZettelURLHandlerTests.swift in Sources */,
+				CF54FA8A2965A4B5008D321B /* GeneralURLHandlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF54FA942965A4B5008D321B /* ZettelURLHandlerUITests.swift in Sources */,
-				CF54FA962965A4B5008D321B /* ZettelURLHandlerUITestsLaunchTests.swift in Sources */,
+				CF54FA942965A4B5008D321B /* GeneralURLHandlerUITests.swift in Sources */,
+				CF54FA962965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		CF54FA872965A4B5008D321B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF54FA732965A4B4008D321B /* ZettelURLHandler */;
+			target = CF54FA732965A4B4008D321B /* GeneralURLHandler */;
 			targetProxy = CF54FA862965A4B5008D321B /* PBXContainerItemProxy */;
 		};
 		CF54FA912965A4B5008D321B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF54FA732965A4B4008D321B /* ZettelURLHandler */;
+			target = CF54FA732965A4B4008D321B /* GeneralURLHandler */;
 			targetProxy = CF54FA902965A4B5008D321B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,18 +441,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = ZettelURLHandler/ZettelURLHandler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GeneralURLHandler/GeneralURLHandler.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ZettelURLHandler/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GeneralURLHandler/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M7W5XA5ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZettelURLHandler/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ZettelURLHandler-dbg";
+				INFOPLIST_FILE = GeneralURLHandler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GeneralURLHandler-dbg";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -461,7 +461,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = "1.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,18 +474,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = ZettelURLHandler/ZettelURLHandler.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GeneralURLHandler/GeneralURLHandler.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ZettelURLHandler/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GeneralURLHandler/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M7W5XA5ZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZettelURLHandler/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ZettelURLHandler;
+				INFOPLIST_FILE = GeneralURLHandler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GeneralURLHandler;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -494,7 +494,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = "1.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -512,11 +512,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZettelURLHandler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneralURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneralURLHandler";
 			};
 			name = Debug;
 		};
@@ -531,11 +531,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZettelURLHandler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneralURLHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeneralURLHandler";
 			};
 			name = Release;
 		};
@@ -548,11 +548,11 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ZettelURLHandler;
+				TEST_TARGET_NAME = GeneralURLHandler;
 			};
 			name = Debug;
 		};
@@ -565,18 +565,18 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.ZettelURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ZettelURLHandler;
+				TEST_TARGET_NAME = GeneralURLHandler;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "ZettelURLHandler" */ = {
+		CF54FA6F2965A4B4008D321B /* Build configuration list for PBXProject "GeneralURLHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA972965A4B5008D321B /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandler" */ = {
+		CF54FA992965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA9A2965A4B5008D321B /* Debug */,
@@ -594,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerTests" */ = {
+		CF54FA9C2965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandlerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FA9D2965A4B5008D321B /* Debug */,
@@ -603,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "ZettelURLHandlerUITests" */ = {
+		CF54FA9F2965A4B5008D321B /* Build configuration list for PBXNativeTarget "GeneralURLHandlerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF54FAA02965A4B5008D321B /* Debug */,
