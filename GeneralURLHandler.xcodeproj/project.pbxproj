@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3983AAF02AF6F897004B5C68 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 3983AAEF2AF6F897004B5C68 /* images.png */; };
 		CF54FA782965A4B4008D321B /* GeneralURLHandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */; };
 		CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA792965A4B4008D321B /* ContentView.swift */; };
 		CF54FA7C2965A4B5008D321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54FA7B2965A4B5008D321B /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3983AAEF2AF6F897004B5C68 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		CF54FA742965A4B4008D321B /* GeneralURLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralURLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerApp.swift; sourceTree = "<group>"; };
 		CF54FA792965A4B4008D321B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		CF54FA6B2965A4B4008D321B = {
 			isa = PBXGroup;
 			children = (
+				3983AAEF2AF6F897004B5C68 /* images.png */,
 				CF54FA762965A4B4008D321B /* GeneralURLHandler */,
 				CF54FA882965A4B5008D321B /* GeneralURLHandlerTests */,
 				CF54FA922965A4B5008D321B /* GeneralURLHandlerUITests */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3983AAF02AF6F897004B5C68 /* images.png in Resources */,
 				CF54FA7F2965A4B5008D321B /* Preview Assets.xcassets in Resources */,
 				CF54FA7C2965A4B5008D321B /* Assets.xcassets in Resources */,
 			);
@@ -461,7 +465,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = "1.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +489,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeneralURLHandler/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = GeneralURLHandler;
+				INFOPLIST_KEY_CFBundleDisplayName = "GeneralURLHandler-dbg";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -494,7 +498,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = "1.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -512,7 +516,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -531,7 +535,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -548,7 +552,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -565,7 +569,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.bargsten.GeneralURLHandlerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.luwak.GeneralURLHandlerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
