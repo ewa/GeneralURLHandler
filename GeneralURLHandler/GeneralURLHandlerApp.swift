@@ -9,7 +9,7 @@ import SwiftUI
 import OSLog
 
 extension Logger {
-    static let logger = Logger(subsystem: "ZettelUrlHandler", category: "general")
+    static let logger = Logger(subsystem: "GeneralURLHandler", category: "general")
 }
 
 class AppDelegate: NSObject, NSApplicationDelegate {
