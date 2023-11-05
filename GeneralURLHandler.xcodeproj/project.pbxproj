@@ -16,7 +16,6 @@
 		CF54FA942965A4B5008D321B /* GeneralURLHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA932965A4B5008D321B /* GeneralURLHandlerUITests.swift */; };
 		CF54FA962965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FA952965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift */; };
 		CF54FAA32965A4D3008D321B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA22965A4D3008D321B /* main.swift */; };
-		CF54FAA52965A598008D321B /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54FAA42965A598008D321B /* util.swift */; };
 		CF54FAA92965BF5D008D321B /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = CF54FAA82965BF5D008D321B /* Yams */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		CF54FA932965A4B5008D321B /* GeneralURLHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerUITests.swift; sourceTree = "<group>"; };
 		CF54FA952965A4B5008D321B /* GeneralURLHandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF54FAA22965A4D3008D321B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CF54FAA42965A598008D321B /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 		CF54FAA62965B3AF008D321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 		CF54FA6B2965A4B4008D321B = {
 			isa = PBXGroup;
 			children = (
-				3983AAEF2AF6F897004B5C68 /* images.png */,
 				CF54FA762965A4B4008D321B /* GeneralURLHandler */,
 				CF54FA882965A4B5008D321B /* GeneralURLHandlerTests */,
 				CF54FA922965A4B5008D321B /* GeneralURLHandlerUITests */,
@@ -105,6 +102,7 @@
 		CF54FA762965A4B4008D321B /* GeneralURLHandler */ = {
 			isa = PBXGroup;
 			children = (
+				3983AAEF2AF6F897004B5C68 /* images.png */,
 				CF54FAA62965B3AF008D321B /* Info.plist */,
 				CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */,
 				CF54FA792965A4B4008D321B /* ContentView.swift */,
@@ -112,7 +110,6 @@
 				CF54FA802965A4B5008D321B /* GeneralURLHandler.entitlements */,
 				CF54FA7D2965A4B5008D321B /* Preview Content */,
 				CF54FAA22965A4D3008D321B /* main.swift */,
-				CF54FAA42965A598008D321B /* util.swift */,
 			);
 			path = GeneralURLHandler;
 			sourceTree = "<group>";
@@ -282,7 +279,6 @@
 				CF54FA7A2965A4B4008D321B /* ContentView.swift in Sources */,
 				CF54FA782965A4B4008D321B /* GeneralURLHandlerApp.swift in Sources */,
 				CF54FAA32965A4D3008D321B /* main.swift in Sources */,
-				CF54FAA52965A598008D321B /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = GeneralURLHandler/GeneralURLHandler.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
