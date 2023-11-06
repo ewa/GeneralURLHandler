@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3952A10B2AF96F1E0053F12F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3983AAEF2AF6F897004B5C68 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		CF54FA742965A4B4008D321B /* GeneralURLHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralURLHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF54FA772965A4B4008D321B /* GeneralURLHandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralURLHandlerApp.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		CF54FA6B2965A4B4008D321B = {
 			isa = PBXGroup;
 			children = (
+				3952A10B2AF96F1E0053F12F /* README.md */,
 				CF54FA762965A4B4008D321B /* GeneralURLHandler */,
 				CF54FA882965A4B5008D321B /* GeneralURLHandlerTests */,
 				CF54FA922965A4B5008D321B /* GeneralURLHandlerUITests */,
